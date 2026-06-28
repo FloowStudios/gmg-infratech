@@ -10,7 +10,7 @@ const Electrical = () => {
       <section
         className="relative min-h-screen bg-cover bg-center"
         style={{
-          backgroundImage: "url('/images/Electrical.png')",
+          backgroundImage: "url('/images/Electrical.webp')",
         }}
       >
         {/* Overlay */}
