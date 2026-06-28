@@ -18,7 +18,7 @@ const Contact = () => {
 
       {/* Contact Container */}
       <div
-        className="
+        className="git 
           relative
           z-20
 
