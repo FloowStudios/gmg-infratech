@@ -7,7 +7,7 @@ const Contact = () => {
     <section
       className="relative min-h-screen bg-cover bg-center"
       style={{
-        backgroundImage: "url('/images/hero.png')",
+        backgroundImage: "url('/images/hero.webp')",
       }}
     >
       {/* Overlay */}
