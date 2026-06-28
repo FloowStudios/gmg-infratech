@@ -44,34 +44,46 @@ const Commercialcivil = () => {
               <br />
               that matters.
             </h1>
-
-            <button
+            {/* whatsapp  */}
+            <a
+              href="https://wa.me/918860009636?text=Hi%20GMG%20Infratech,%20I%20want%20to%20know%20more%20about%20your%20services."
+              target="_blank"
+              rel="noopener noreferrer"
               className="
-                mt-8
-                sm:mt-10
-                lg:mt-12
-                inline-flex
-                items-center
-                gap-3
-                bg-[#25D366]
-                hover:bg-[#1fb759]
-                px-6
-                sm:px-8
-                py-3
-                sm:py-4
-                rounded-full
-                text-white
-                text-sm
-                sm:text-base
-                font-semibold
-                transition-all
-                duration-300
-                hover:scale-105
-              "
+    mt-8
+    sm:mt-10
+    lg:mt-12
+
+    inline-flex
+    items-center
+    gap-3
+
+    bg-green-500
+    hover:bg-green-600
+
+    px-6
+    sm:px-7
+    lg:px-8
+
+    py-3
+    lg:py-4
+
+    rounded-full
+
+    text-white
+    font-semibold
+
+    text-sm
+    sm:text-base
+
+    tracking-wider
+
+    transition
+  "
             >
-              <FaWhatsapp className="text-xl sm:text-2xl" />
+              <FaWhatsapp className="text-xl lg:text-2xl" />
               CHAT ON WHATSAPP
-            </button>
+            </a>
 
           </div>
         </div>
@@ -137,9 +149,8 @@ const Commercialcivil = () => {
             {features.map((item, index) => (
               <div
                 key={index}
-                className={`flex items-center justify-center py-6 sm:py-7 lg:py-8 px-4 ${
-                  index !== 2 ? "md:border-r border-gray-300" : ""
-                }`}
+                className={`flex items-center justify-center py-6 sm:py-7 lg:py-8 px-4 ${index !== 2 ? "md:border-r border-gray-300" : ""
+                  }`}
               >
                 <h3
                   className="

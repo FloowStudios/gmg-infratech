@@ -46,43 +46,46 @@ const Hero = () => {
                             <br />
                             that matters.
                         </h1>
-
-                        <button
+                        {/* whatsapp integration  */}
+                        <a
+                            href="https://wa.me/918860009636?text=Hi%20GMG%20Infratech,%20I%20want%20to%20know%20more%20about%20your%20services."
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="
-              mt-8
-              sm:mt-10
-              lg:mt-12
+    mt-8
+    sm:mt-10
+    lg:mt-12
 
-              inline-flex
-              items-center
-              gap-3
+    inline-flex
+    items-center
+    gap-3
 
-              bg-green-500
-              hover:bg-green-600
+    bg-green-500
+    hover:bg-green-600
 
-              px-6
-              sm:px-7
-              lg:px-8
+    px-6
+    sm:px-7
+    lg:px-8
 
-              py-3
-              lg:py-4
+    py-3
+    lg:py-4
 
-              rounded-full
+    rounded-full
 
-              text-white
-              font-semibold
+    text-white
+    font-semibold
 
-              text-sm
-              sm:text-base
+    text-sm
+    sm:text-base
 
-              tracking-wider
+    tracking-wider
 
-              transition
-            "
+    transition
+  "
                         >
                             <FaWhatsapp className="text-xl lg:text-2xl" />
                             CHAT ON WHATSAPP
-                        </button>
+                        </a>
 
                     </div>
 
